@@ -4,4 +4,6 @@ cgpa = input("Input GGPA: ")
 department = input("Input your department: ")
 
 
-print(f"My name is {name}, I\'m a student of {department} department. My reg number is {reg_number} and my CGPA is {cgpa}.")
+print(
+    f"My name is {name}, I'm a student of {department} department. My reg number is {reg_number} and my CGPA is {cgpa}."
+)

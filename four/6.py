@@ -5,7 +5,7 @@ days = {
     "Wednesday": "Ojoru",
     "Thursday": "Ojobo",
     "Friday": "Eti",
-    "Saturday": "Abameta" 
+    "Saturday": "Abameta",
 }
 
 english_day = input("Input English Day: ")

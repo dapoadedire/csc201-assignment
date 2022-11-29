@@ -1,4 +1,10 @@
-myDictionary = {"name": "John", "age": 36, "country of birth": "United States", "favorite language": "Python"}
+myDictionary = {
+    "name": "John",
+    "age": 36,
+    "country of birth": "United States",
+    "favorite language": "Python",
+}
+
 
 def findKey(key, dictionary):
     if key in dictionary:

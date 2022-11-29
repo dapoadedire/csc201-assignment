@@ -7,6 +7,7 @@ def make_readable(seconds):
     else:
         return "Invalid input"
 
+
 print(make_readable(0))
 print(make_readable(5))
 print(make_readable(60))

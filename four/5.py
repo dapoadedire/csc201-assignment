@@ -1,4 +1,4 @@
-information_tuple = ("Dapo Adedire", "EEG/2019/002", "12", "Osun State" )
+information_tuple = ("Dapo Adedire", "EEG/2019/002", "12", "Osun State")
 
 # Turn to string
 

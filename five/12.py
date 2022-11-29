@@ -4,9 +4,11 @@ def max6(integers):
 
     return max_integers
 
+
 def main():
     integers = input("Enter integers: ")
     max_integers = max6(integers)
     print("Max integer is", max_integers)
+
 
 main()

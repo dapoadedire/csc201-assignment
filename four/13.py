@@ -7,6 +7,7 @@ dictionary = {
     "Tall": "Giraffe",
 }
 
+
 def sort_by_value(dictionary):
     sorted_dictionary = {}
     sorted_keys = sorted(dictionary, key=dictionary.get)

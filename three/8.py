@@ -1,5 +1,6 @@
 #  Hailstone algorithm
 
+
 def hailstone(n):
     if n == 1:
         print(n)

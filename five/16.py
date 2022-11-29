@@ -4,4 +4,5 @@ def checkTriangle(a, b, c):
     else:
         return False
 
+
 print(checkTriangle(3, 4, 9))

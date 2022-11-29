@@ -17,4 +17,3 @@ c = 3e8
 # Vibrational frequency
 
 w = 1000
-

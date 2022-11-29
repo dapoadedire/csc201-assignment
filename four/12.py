@@ -4,4 +4,3 @@ for i in range(1000, 3000):
             break
     else:
         print(i, end=", ")
-

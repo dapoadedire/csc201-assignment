@@ -4,9 +4,11 @@ def min6(integers):
 
     return min_integers
 
+
 def main():
     integers = input("Enter integers: ")
     min_integers = min6(integers)
     print("min integer is", min_integers)
+
 
 main()
