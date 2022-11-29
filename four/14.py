@@ -1,8 +1,8 @@
 myDictionary = {
     "name": "John",
     "age": 36,
-    "country of birth": "United States",
-    "favorite language": "Python",
+    "country_of_birth": "United States",
+    "favorite_language": "Python",
 }
 
 
