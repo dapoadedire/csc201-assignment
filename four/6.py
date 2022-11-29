@@ -11,7 +11,7 @@ days = {
 english_day = input("Input English Day: ")
 
 try:
-    african_language_day = days["Sunday"]
+    african_language_day = days[english_day]
     print(african_language_day)
 except:
     print("Error.")
