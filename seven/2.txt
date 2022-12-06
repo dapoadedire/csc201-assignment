@@ -3,74 +3,74 @@
 
 
 
+YOU ONLY NEED TO WRITE 10, PLEASE SHUFFLE IT WHILE WRITING
 
 
-
-
+1
 open(): Opens a file and returns a file object that can be used to read, write, or manipulate the file. The open() function takes the file name and mode as arguments. For example, the following statement opens a file named "myfile.txt" in read-only mode:
 file = open("myfile.txt", "r")
 
-
+2
 read(): Reads the contents of a file and returns them as a string. The read() function can take an optional argument specifying the maximum number of characters to read. For example, the following statement reads the first 100 characters from the file object file:
 file_contents = file.read(100)
 
-
+3
 readline(): Reads a single line from a file and returns it as a string. The readline() function can take an optional argument specifying the maximum number of characters to read. For example, the following statement reads the first 100 characters of the next line in the file object file:
 line = file.readline(100)
 
-
+4
 write(): Writes a string to a file. The write() function takes the string to be written as an argument. For example, the following statement writes the string "Hello, world!" to the file object file:
 file.write("Hello, world!")
 
-
+5
 tell(): Returns the current position of the file pointer within a file. For example, the following statement prints the current position of the file pointer in the file object file:
 print(file.tell())
 
-
+6
 seek(): Changes the position of the file pointer within a file. The seek() function takes the new position of the file pointer as an argument. For example, the following statement moves the file pointer to the 10th character of the file object file:
 file.seek(10)
 
-
+7
 close(): Closes a file and frees up any resources that were being used to manipulate the file. For example, the following statement closes the file object file:
 file.close()
 
-
+8
 with open(): This is a context manager that automatically opens and closes a file. The with open() statement takes the file name and mode as arguments, and returns a file object that can be used to manipulate the file. For example, the following statement opens a file named "myfile.txt" in read-only mode and assigns the file object to the variable file:
 with open("myfile.txt", "r") as file:
     file_contents = file.read()
 
-
+9
 os.path.exists(): This function checks whether a file or directory exists. The os.path.exists() function takes the file or directory name as an argument and returns True if it exists and False if it does not. For example, the following statement checks whether the file "myfile.txt" exists:
 import os
 if os.path.exists("myfile.
 
 
-
+10
 os.remove(): This function deletes a file. The os.remove() function takes the file name as an argument and deletes the file if it exists. For example, the following statement deletes the file "myfile.txt" if it exists:
 import os
 if os.path.exists("myfile.txt"):
     os.remove("myfile.txt")
 
-
+11
 os.rename(): This function renames a file. The os.rename() function takes the current file name and the new file name as arguments and renames the file if it exists. For example, the following statement renames the file "oldfile.txt" to "newfile.txt" if it exists:
 import os
 if os.path.exists("oldfile.txt"):
     os.rename("oldfile.txt", "newfile.txt")
 
-
+12
 os.mkdir(): This function creates a new directory. The os.mkdir() function takes the directory name as an argument and creates the directory if it does not already exist. For example, the following statement creates a new directory named "mydir" if it does not already exist:
 import os
 if not os.path.exists("mydir"):
     os.mkdir("mydir")
 
 
-
+13
 os.rmdir(): This function deletes an empty directory. The os.rmdir() function takes the directory name as an argument and deletes the directory if it exists and is empty. For example, the following statement deletes the directory "mydir" if it exists and is empty:
 import os
 if os.path.exists("mydir") and not os.listdir("mydir"):
     os.rmdir("mydir")
 
-
+14
 shutil.rmtree(): This function deletes a directory and all of its contents. The shutil.rmtree() function takes the directory name as an argument and deletes the directory and all of its contents if it exists. For example, the following statement deletes the directory "mydir" and all of its contents if it exists:
 import shutil
 if os.path.exists("mydir"):
