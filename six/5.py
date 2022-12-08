@@ -72,23 +72,22 @@ class Student:
             print(f"{course}: {remark}")
 
 
+    def print_results(self):
+        # Print results in this format: Math: A , Excellent, (5 points)
+        for course, score in self.courses.items():
+            print(f"{course}: {self.grades[course]}, {self.remarks[course]}, ({self.points[course]} points)")
+
+
 student = Student(
     "John Doe",
     20,
     {
         "math": 85,
         "physics": 75,
-        "chemistry": 95,
-        "biology": 65,
-        "english": 80,
-        "history": 70,
-        "geography": 60,
-        "cre": 55,
-        "agriculture": 45,
-        "french": 40,
-        "kiswahili": 35,
     },
 )
 student.print_grades()
 student.print_points()
 student.print_remarks()
+
+student.print_results()

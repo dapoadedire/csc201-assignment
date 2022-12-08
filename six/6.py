@@ -82,6 +82,12 @@ class Student:
     def print_gpa(self):
         print(f"GPA: {self.gpa}")
 
+    
+    def print_results(self):
+        # Print results in this format: Math: A , Excellent, (5 points)
+        for course, score in self.courses.items():
+            print(f"{course}: {self.grades[course]}, {self.remarks[course]}, ({self.points[course]} points)")
+        print(f"GPA: {self.gpa:.2f}")
 
 student = Student(
     "John Doe",
@@ -100,12 +106,12 @@ student = Student(
         "kiswahili": 35,
     },
 )
-student.print_grades()
-student.print_points()
-student.print_remarks()
-student.print_gpa()
+# student.print_grades()
+# student.print_points()
+# student.print_remarks()
+# student.print_gpa()
 
-
+student.print_results()
 
 
 
